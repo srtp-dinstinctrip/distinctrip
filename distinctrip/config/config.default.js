@@ -18,6 +18,11 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
+  //模板渲染映射
+  config.view = {
+    mapping: {'.html': 'ejs'} //左边写成.html后缀，会自动渲染.html文件
+  };
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
