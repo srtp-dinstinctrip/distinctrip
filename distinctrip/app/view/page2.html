@@ -3,8 +3,38 @@
 <head>
 <meta charset="utf-8">
 <title>鲸游DistincTrip</title>
+<style type="text/css">
+    .bg,.content {
+        width: 730px;
+        height: 454px;
+    }
+    .bg img{
+        position: absolute;
+    }
+    .content img {
+        width: 19%;
+    }
+    :target {
+        z-index: 1;
+    }
+</style>
 </head>
+
 <body style="background: #000000">
     <p style="font-size: 10em; color: #009999; margin: auto;">这是page2</p>
+    <div class="bg">
+        <img src="img/001.jpg" id="jd1"/>
+        <img src="img/002.jpg" id="jd2"/>
+        <img src="img/003.jpg" id="jd3"/>
+        <img src="img/004.jpg" id="jd4"/>
+        <img src="img/005.jpg" id="jd5"/>
+    </div>
+    <div class="content">
+        <a href="#jd1"><img src="img/001.jpg"/></a>
+        <a href="#jd2"><img src="img/002.jpg"/></a>
+        <a href="#jd3"><img src="img/003.jpg"/></a>
+        <a href="#jd4"><img src="img/004.jpg"/></a>
+        <a href="#jd5"><img src="img/005.jpg"/></a>
+    </div>
 </body>
 </html>
