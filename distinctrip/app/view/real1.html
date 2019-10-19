@@ -1,0 +1,72 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+<meta charset="utf-8">
+<title>鲸游DistincTrip  7</title>
+<!-- <link href="css/demo.css" rel="stylesheet" /> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/vue.min.js"></script> -->
+<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/demo2.js"></script>
+
+<style>
+    .thumbnail 
+            {
+                float:left;
+                width:19%;
+                height:50%;
+                margin:0.5%;
+            }
+</style>
+</head>
+
+<body>
+    <div id="scenic_info">
+        <mycom1></mycom1>
+    </div>
+</body>
+
+
+
+
+<script>
+var vm = new Vue({
+            el: '#scenic_info',
+            template: `
+            <div>
+                <img id="show1" class="thumbnail" v-bind:src="img[0]" width="107" height="90">
+                <img id="show2" class="thumbnail" v-bind:src="img[1]" width="107" height="90">
+                <img id="show3" class="thumbnail" v-bind:src="img[2]" width="116" height="90">
+                <img id="show4" class="thumbnail" v-bind:src="img[3]" width="120" height="90">
+                <img id="showmore" class="thumbnail" src="../code/img/TED.jpg" width="107" height="90" v-on:click="changeImages">
+            </div>
+            `,
+            data: {
+                img:[
+                    "../code/img/img00.jpg",
+                    "../code/img/img01.jpg",
+                    "../code/img/img02.jpg",
+                    "../code/img/img03.jpg",
+                    "../code/img/img04.jpg",
+                    "../code/img/img05.jpg",
+                    "../code/img/img06.jpg"
+                ],
+                b:0
+            },
+            methods: {
+                changeImages:function(event){
+                    
+                    var a=new Array(5);
+                    var k=1;
+                    var b1 = this.b++;
+                    for(var i=b1;i<b1+5;i++){
+                        a[k]=document.getElementById('show'+k);                     
+                        a[k].src=this.img[i];
+                        k++;
+                    }
+                }
+            }
+        }) 
+</script>
+
+</html>
