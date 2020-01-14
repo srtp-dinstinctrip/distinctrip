@@ -43,7 +43,7 @@ export default {
     .senic_detail{   /*表格div格式*/
         height: 300px;
         width: 400px;
-        position: absolute;
+        /*position: absolute;*/
         left: 7.5%;
         background-color: rgb(255, 255, 255);
     }
