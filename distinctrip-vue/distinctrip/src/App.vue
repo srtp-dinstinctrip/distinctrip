@@ -33,17 +33,12 @@ export default {
     IndexBottom,
     IndexHeader,
     IndexSearchbar,
-<<<<<<< HEAD
     IndexTurn,
-    IndexBanner
-=======
     IndexBanner,
-
     IndexScenicDetail,
     IndexScenicBrief,
     IndexScenicAttention,
     IndexScenicLocation
->>>>>>> 275fd16d03807e0a3ff40981c6ae4d3f1bd55952
   }
 }
 </script>
