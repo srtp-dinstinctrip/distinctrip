@@ -46,7 +46,9 @@ export default {
     width: 1300px;
     height: 500px;
     position: relative;
-    left: 7.1%;
+    margin: auto;
+    left: 0;
+    right: 0;
     overflow: hidden;  /*  解除外边距塌陷  清除浮动  溢出隐藏 */
     border-radius: 10px;
     padding-bottom: 20px;

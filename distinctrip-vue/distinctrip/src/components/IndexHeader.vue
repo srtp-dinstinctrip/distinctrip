@@ -23,9 +23,10 @@ export default {
 .header{
     height: 50px;
     width: 1300px;
-    position: absolute;
-    left: 7.5%; 
     position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 .header-logo{  /*顶部logo垂直居中*/
     position: absolute;

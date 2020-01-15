@@ -42,9 +42,10 @@ export default {
    .searchbar{
     height: 40px;
     width: 1300px;
-    position: absolute;
-    left: 7.5%;
-    margin-top: 2px;
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 .left{
     height:100%;

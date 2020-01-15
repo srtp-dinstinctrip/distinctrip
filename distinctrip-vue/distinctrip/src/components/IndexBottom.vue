@@ -48,8 +48,11 @@ export default {
     .bottom{   /*底部最大div格式*/
     height: 120px;
     width: 1300px;
-    position: absolute;
-    left: 7.5%;
+    position:relative;
+    margin: auto;
+    top: 100px;
+    left: 0;
+    right: 0;
     /*border: solid 1px;*/
     border-radius: 8px;
     background-color: rgb(102,102,102);
