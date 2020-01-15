@@ -39,7 +39,7 @@
 export default {
     name: 'IndexBottom',
     props: {
-
+        msg: String
     }
 }
 </script>
