@@ -27,7 +27,7 @@
 
 <script>
 export default {
-    name: 'IndexScenicDetail',
+    name: 'ScenicDetail',
     props: {
         time: String,
         tele: String,

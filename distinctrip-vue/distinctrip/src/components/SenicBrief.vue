@@ -7,7 +7,7 @@
 
 <script>
 export default {
-    name: 'IndexScenicBrief',
+    name: 'ScenicBrief',
     props: {
         mytitle:String,
         mycontent:String

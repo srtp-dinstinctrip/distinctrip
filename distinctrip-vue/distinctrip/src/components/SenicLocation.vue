@@ -16,7 +16,7 @@
 
 <script>
     export default {
-        name: "demo",
+        name: "ScenicLocation",
         data: () => ({
             map:{
                 center: {lng: 103.989854, lat:30.770199},

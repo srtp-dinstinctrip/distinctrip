@@ -9,7 +9,7 @@
 
 <script>
 export default {
-    name: 'IndexScenicAttention',
+    name: 'ScenicAttention',
     props: {
         mycontent:String
     }
