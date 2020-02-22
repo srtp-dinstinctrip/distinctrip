@@ -1,15 +1,28 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <el-container>
+      <el-header>
+        <index-header></index-header>
+      </el-header>
+      <el-main>
+        <router-view></router-view>
+      </el-main>
+      <el-footer>
+        <index-bottom></index-bottom>
+      </el-footer>
+    </el-container>
   </div>
 </template>
 
 
 <script>
+import indexHeader from '@/components/index/IndexHeader'
+import indexBottom from '@/components/index/IndexBottom'
 export default {
   name: 'app',
   components: {
-
+    indexHeader,
+    indexBottom
   }
 }
 </script>

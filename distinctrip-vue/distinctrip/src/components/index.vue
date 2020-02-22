@@ -1,17 +1,13 @@
 <template>
   <div id="index">
-    <index-header></index-header>
     <index-banner></index-banner>
     <index-searchbar></index-searchbar><br><br><br>
     <!-- <IndexTurn></IndexTurn><br><br><br> -->
-    <IndexBottom></IndexBottom>
   </div>
 </template>
 
 
 <script>
-import IndexBottom from './index/IndexBottom.vue'
-import IndexHeader from './index/IndexHeader.vue'
 import IndexSearchbar from './index/IndexSearchbar.vue'
 // import IndexTurn from './index/IndexTurn.vue'
 import IndexBanner from './index/IndexBanner.vue'
@@ -19,8 +15,6 @@ import IndexBanner from './index/IndexBanner.vue'
 export default {
   name: 'index',
   components: {
-    IndexBottom,
-    IndexHeader,
     IndexSearchbar,
     // IndexTurn,
     IndexBanner
