@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 /* #app {
   padding: 0;
   border: 0;

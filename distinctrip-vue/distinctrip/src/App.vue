@@ -27,9 +27,10 @@ export default {
 }
 </script>
 
-<style>
-#app {
+<style scoped>
+body #app {
   padding: 0;
+  margin: 0;
   border: 0;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -37,5 +38,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   /* margin-top: 60px; */
+}
+.el-header {
+  height: auto !important;
+}
+.el-main {
+  padding: 0 20px;
+}
+.el-footer {
+  height: auto !important;
 }
 </style>

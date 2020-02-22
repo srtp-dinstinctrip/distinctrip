@@ -1,5 +1,5 @@
 <template>
-  <div class="bottom">
+  <div class="index-bottom">
         <div class="bottom-left">
                 <img src="../../assets/image/distinctrip-v-white.png" alt="" height="70%" class="bottom-logo">
         </div>
@@ -45,12 +45,11 @@ export default {
 </script>
 
 <style scoped>
-    .bottom{   /*底部最大div格式*/
+    .index-bottom{   /*底部最大div格式*/
     height: 120px;
     width: 1300px;
     position:relative;
     margin: auto;
-    top: 100px;
     left: 0;
     right: 0;
     /*border: solid 1px;*/
